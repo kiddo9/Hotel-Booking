@@ -1,25 +1,19 @@
 const Video = () => {
     return (
-       <div className="relative">
-           <div className="absolute inset-0 justify-center bg-customGray"></div>
-                <div>
-                    <img src="images/fernando-alvarez-rodriguez-M7GddPqJowg-unsplash.jpg" className="h-[100vh] object-fill md:w-screen" alt="" />
-                </div>
+       <div className="relative text-[#14274A] flex justify-center flex-col p-7">
+          <h2 className="font-serif text-3xl font-medium text-center">Testimonials</h2>
+          <p className="text-sm font-normal text-center">`Calm, Seren,Retro - What a way to relax and enjoy`</p>
+          <span className="text-sm font-normal text-center">Mr and Mrs Bertux, uk</span>
+          <div className="flex gap-8 pt-4 mx-auto">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 bg-[#E0B973] p-1 text-white rounded-md">
+             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+           </svg>
 
-            <div  className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-screen flex flex-col justify-center leading-[4rem]">
-                <h2 className="text-4xl text-center text-amber-500">LUXURY</h2><br/>
-                <h4 className="text-lg text-center">Perform Some Task And Get A Chance of 
-                    a free Trip To One of Our Must Luxury 
-                    House in Norway
-                </h4>
-                <p className="text-lg text-center">The task ia a one week task. 
-                    if you are up for the task click on
-                 </p><br/>
-                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mx-auto text-amber-500">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
-                 </svg><br/>
-                 <button className="mx-10 rounded-lg bg-amber-500"><a href="">Get Started</a></button>
-            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 bg-[#E0B973] p-1 text-white rounded-md">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+
+          </div>
       </div>
     );
   };

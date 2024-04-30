@@ -6,8 +6,8 @@ import Video from './video';
 const Content = () => {
     return(
         <div>
-            <Section1 />
-            <Sub_section />
+            <Section1 image="images/gabriel ghnassia A9h6OsAxTyQ unsplash.png" />
+            <Sub_section Des="All our room types are including complimentry breakfast" />
             <Card />
             <Video />
         </div>
