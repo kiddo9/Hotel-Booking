@@ -6,7 +6,7 @@ const Section1 = ({image}) => {
         <div>
             <div className="absolute inset-0 justify-center bg-[#14274a78]"></div>
         <div className="w-screen h-screen lg:w-full">
-            <img src={image} alt="" className="h-screen md:w-screen" />
+            <img src={image} alt="" className="h-[95vh] md:w-screen md:h-screen" />
         </div>
 
         <div className="absolute top-[43%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-screen flex flex-col justify-center leading-loose pl-4 xl:px-44">
